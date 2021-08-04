@@ -7,8 +7,8 @@
 -  Ability to add, delete many todos and sync them immediately with the database.
 - check todo as done with syncing its state with the database immediately.
 # Screenshots:
-- Signp screen :
-![](Screenshots/filename%20signp.png)
+- Signp screen 
+- ![](Screenshots/filename%20signp.png)
 - Signin screen :
 ![](Screenshots/filename%20signin.png)
 - Main Screen :
