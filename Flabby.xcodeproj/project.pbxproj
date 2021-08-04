@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24E94593B46EADF9927015C1 /* Pods_Flabby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E83C3701312510462B026D99 /* Pods_Flabby.framework */; };
+		5508848726B5F3BE009730D7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5508848626B5F3BE009730D7 /* GoogleService-Info.plist */; };
+		552E442B26B6F37C00AEA56F /* addTodoPop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552E442A26B6F37C00AEA56F /* addTodoPop.swift */; };
+		55856C2226B60A5B00C28681 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55856C2126B60A5B00C28681 /* MainViewController.swift */; };
+		55856C2426B625BD00C28681 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55856C2326B625BD00C28681 /* Item.swift */; };
+		55856C2926B626E000C28681 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55856C2726B626E000C28681 /* ItemCell.swift */; };
+		55856C2A26B626E000C28681 /* ItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55856C2826B626E000C28681 /* ItemCell.xib */; };
+		559F077C26B475A30067A3AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559F077B26B475A30067A3AA /* AppDelegate.swift */; };
+		559F077E26B475A30067A3AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559F077D26B475A30067A3AA /* SceneDelegate.swift */; };
+		559F078026B475A30067A3AA /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559F077F26B475A30067A3AA /* WelcomeViewController.swift */; };
+		559F078326B475A30067A3AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 559F078126B475A30067A3AA /* Main.storyboard */; };
+		559F078526B475A70067A3AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 559F078426B475A70067A3AA /* Assets.xcassets */; };
+		559F079326B475A80067A3AA /* FlabbyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559F079226B475A80067A3AA /* FlabbyTests.swift */; };
+		559F079E26B475A80067A3AA /* FlabbyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559F079D26B475A80067A3AA /* FlabbyUITests.swift */; };
+		559F07B526B47CDA0067A3AA /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559F07B426B47CDA0067A3AA /* SignupViewController.swift */; };
+		559F07B726B4C6350067A3AA /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559F07B626B4C6350067A3AA /* loginViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		559F078F26B475A80067A3AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 559F077026B475A30067A3AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 559F077726B475A30067A3AA;
+			remoteInfo = Flabby;
+		};
+		559F079A26B475A80067A3AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 559F077026B475A30067A3AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 559F077726B475A30067A3AA;
+			remoteInfo = Flabby;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01CD4EE21BD20D9290D0A23E /* Pods-Flabby.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flabby.release.xcconfig"; path = "Target Support Files/Pods-Flabby/Pods-Flabby.release.xcconfig"; sourceTree = "<group>"; };
+		168447AF0D07B13B7F8D3AFD /* Pods-Flabby.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flabby.debug.xcconfig"; path = "Target Support Files/Pods-Flabby/Pods-Flabby.debug.xcconfig"; sourceTree = "<group>"; };
+		5508848626B5F3BE009730D7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		552E442A26B6F37C00AEA56F /* addTodoPop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addTodoPop.swift; sourceTree = "<group>"; };
+		55856C2126B60A5B00C28681 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		55856C2326B625BD00C28681 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		55856C2726B626E000C28681 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		55856C2826B626E000C28681 /* ItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemCell.xib; sourceTree = "<group>"; };
+		559F077826B475A30067A3AA /* Flabby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flabby.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		559F077B26B475A30067A3AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		559F077D26B475A30067A3AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		559F077F26B475A30067A3AA /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		559F078226B475A30067A3AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		559F078426B475A70067A3AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		559F078926B475A70067A3AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		559F078E26B475A80067A3AA /* FlabbyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlabbyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		559F079226B475A80067A3AA /* FlabbyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlabbyTests.swift; sourceTree = "<group>"; };
+		559F079426B475A80067A3AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		559F079926B475A80067A3AA /* FlabbyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlabbyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		559F079D26B475A80067A3AA /* FlabbyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlabbyUITests.swift; sourceTree = "<group>"; };
+		559F079F26B475A80067A3AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		559F07B426B47CDA0067A3AA /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		559F07B626B4C6350067A3AA /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		E83C3701312510462B026D99 /* Pods_Flabby.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flabby.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		559F077526B475A30067A3AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24E94593B46EADF9927015C1 /* Pods_Flabby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559F078B26B475A80067A3AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559F079626B475A80067A3AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E4E25396B98733ABCEDAC98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E83C3701312510462B026D99 /* Pods_Flabby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C76067BEF7AC29AB21D8C4E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				168447AF0D07B13B7F8D3AFD /* Pods-Flabby.debug.xcconfig */,
+				01CD4EE21BD20D9290D0A23E /* Pods-Flabby.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		559F076F26B475A30067A3AA = {
+			isa = PBXGroup;
+			children = (
+				559F077A26B475A30067A3AA /* Flabby */,
+				559F079126B475A80067A3AA /* FlabbyTests */,
+				559F079C26B475A80067A3AA /* FlabbyUITests */,
+				559F077926B475A30067A3AA /* Products */,
+				4C76067BEF7AC29AB21D8C4E /* Pods */,
+				0E4E25396B98733ABCEDAC98 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		559F077926B475A30067A3AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				559F077826B475A30067A3AA /* Flabby.app */,
+				559F078E26B475A80067A3AA /* FlabbyTests.xctest */,
+				559F079926B475A80067A3AA /* FlabbyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		559F077A26B475A30067A3AA /* Flabby */ = {
+			isa = PBXGroup;
+			children = (
+				559F077B26B475A30067A3AA /* AppDelegate.swift */,
+				559F077D26B475A30067A3AA /* SceneDelegate.swift */,
+				559F07AC26B476490067A3AA /* Model */,
+				559F07AD26B476590067A3AA /* View */,
+				559F07AB26B476270067A3AA /* Controller */,
+				559F078426B475A70067A3AA /* Assets.xcassets */,
+				559F078926B475A70067A3AA /* Info.plist */,
+				5508848626B5F3BE009730D7 /* GoogleService-Info.plist */,
+			);
+			path = Flabby;
+			sourceTree = "<group>";
+		};
+		559F079126B475A80067A3AA /* FlabbyTests */ = {
+			isa = PBXGroup;
+			children = (
+				559F079226B475A80067A3AA /* FlabbyTests.swift */,
+				559F079426B475A80067A3AA /* Info.plist */,
+			);
+			path = FlabbyTests;
+			sourceTree = "<group>";
+		};
+		559F079C26B475A80067A3AA /* FlabbyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				559F079D26B475A80067A3AA /* FlabbyUITests.swift */,
+				559F079F26B475A80067A3AA /* Info.plist */,
+			);
+			path = FlabbyUITests;
+			sourceTree = "<group>";
+		};
+		559F07AB26B476270067A3AA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				559F077F26B475A30067A3AA /* WelcomeViewController.swift */,
+				559F07B426B47CDA0067A3AA /* SignupViewController.swift */,
+				559F07B626B4C6350067A3AA /* loginViewController.swift */,
+				55856C2126B60A5B00C28681 /* MainViewController.swift */,
+				552E442A26B6F37C00AEA56F /* addTodoPop.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		559F07AC26B476490067A3AA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				55856C2326B625BD00C28681 /* Item.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		559F07AD26B476590067A3AA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				559F078126B475A30067A3AA /* Main.storyboard */,
+				55856C2726B626E000C28681 /* ItemCell.swift */,
+				55856C2826B626E000C28681 /* ItemCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		559F077726B475A30067A3AA /* Flabby */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 559F07A226B475A80067A3AA /* Build configuration list for PBXNativeTarget "Flabby" */;
+			buildPhases = (
+				2C917804F0ED1F0AF8213BF5 /* [CP] Check Pods Manifest.lock */,
+				559F077426B475A30067A3AA /* Sources */,
+				559F077526B475A30067A3AA /* Frameworks */,
+				559F077626B475A30067A3AA /* Resources */,
+				C3ACA60902C88F7CCF62A5F8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flabby;
+			productName = Flabby;
+			productReference = 559F077826B475A30067A3AA /* Flabby.app */;
+			productType = "com.apple.product-type.application";
+		};
+		559F078D26B475A80067A3AA /* FlabbyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 559F07A526B475A80067A3AA /* Build configuration list for PBXNativeTarget "FlabbyTests" */;
+			buildPhases = (
+				559F078A26B475A80067A3AA /* Sources */,
+				559F078B26B475A80067A3AA /* Frameworks */,
+				559F078C26B475A80067A3AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				559F079026B475A80067A3AA /* PBXTargetDependency */,
+			);
+			name = FlabbyTests;
+			productName = FlabbyTests;
+			productReference = 559F078E26B475A80067A3AA /* FlabbyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		559F079826B475A80067A3AA /* FlabbyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 559F07A826B475A80067A3AA /* Build configuration list for PBXNativeTarget "FlabbyUITests" */;
+			buildPhases = (
+				559F079526B475A80067A3AA /* Sources */,
+				559F079626B475A80067A3AA /* Frameworks */,
+				559F079726B475A80067A3AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				559F079B26B475A80067A3AA /* PBXTargetDependency */,
+			);
+			name = FlabbyUITests;
+			productName = FlabbyUITests;
+			productReference = 559F079926B475A80067A3AA /* FlabbyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		559F077026B475A30067A3AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = mohamedSliem;
+				TargetAttributes = {
+					559F077726B475A30067A3AA = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					559F078D26B475A80067A3AA = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 559F077726B475A30067A3AA;
+					};
+					559F079826B475A80067A3AA = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 559F077726B475A30067A3AA;
+					};
+				};
+			};
+			buildConfigurationList = 559F077326B475A30067A3AA /* Build configuration list for PBXProject "Flabby" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 559F076F26B475A30067A3AA;
+			productRefGroup = 559F077926B475A30067A3AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				559F077726B475A30067A3AA /* Flabby */,
+				559F078D26B475A80067A3AA /* FlabbyTests */,
+				559F079826B475A80067A3AA /* FlabbyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		559F077626B475A30067A3AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55856C2A26B626E000C28681 /* ItemCell.xib in Resources */,
+				559F078526B475A70067A3AA /* Assets.xcassets in Resources */,
+				5508848726B5F3BE009730D7 /* GoogleService-Info.plist in Resources */,
+				559F078326B475A30067A3AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559F078C26B475A80067A3AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559F079726B475A80067A3AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C917804F0ED1F0AF8213BF5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Flabby-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3ACA60902C88F7CCF62A5F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Flabby/Pods-Flabby-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Flabby/Pods-Flabby-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Flabby/Pods-Flabby-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		559F077426B475A30067A3AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				552E442B26B6F37C00AEA56F /* addTodoPop.swift in Sources */,
+				55856C2926B626E000C28681 /* ItemCell.swift in Sources */,
+				559F078026B475A30067A3AA /* WelcomeViewController.swift in Sources */,
+				559F077C26B475A30067A3AA /* AppDelegate.swift in Sources */,
+				559F07B526B47CDA0067A3AA /* SignupViewController.swift in Sources */,
+				55856C2226B60A5B00C28681 /* MainViewController.swift in Sources */,
+				55856C2426B625BD00C28681 /* Item.swift in Sources */,
+				559F07B726B4C6350067A3AA /* loginViewController.swift in Sources */,
+				559F077E26B475A30067A3AA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559F078A26B475A80067A3AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559F079326B475A80067A3AA /* FlabbyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559F079526B475A80067A3AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559F079E26B475A80067A3AA /* FlabbyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		559F079026B475A80067A3AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 559F077726B475A30067A3AA /* Flabby */;
+			targetProxy = 559F078F26B475A80067A3AA /* PBXContainerItemProxy */;
+		};
+		559F079B26B475A80067A3AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 559F077726B475A30067A3AA /* Flabby */;
+			targetProxy = 559F079A26B475A80067A3AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		559F078126B475A30067A3AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				559F078226B475A30067A3AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		559F07A026B475A80067A3AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		559F07A126B475A80067A3AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		559F07A326B475A80067A3AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 168447AF0D07B13B7F8D3AFD /* Pods-Flabby.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Flabby/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.sliem.Flabby;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		559F07A426B475A80067A3AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01CD4EE21BD20D9290D0A23E /* Pods-Flabby.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Flabby/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.sliem.Flabby;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		559F07A626B475A80067A3AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlabbyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.sliem.FlabbyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flabby.app/Flabby";
+			};
+			name = Debug;
+		};
+		559F07A726B475A80067A3AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlabbyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.sliem.FlabbyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flabby.app/Flabby";
+			};
+			name = Release;
+		};
+		559F07A926B475A80067A3AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlabbyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.sliem.FlabbyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Flabby;
+			};
+			name = Debug;
+		};
+		559F07AA26B475A80067A3AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlabbyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.sliem.FlabbyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Flabby;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		559F077326B475A30067A3AA /* Build configuration list for PBXProject "Flabby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				559F07A026B475A80067A3AA /* Debug */,
+				559F07A126B475A80067A3AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		559F07A226B475A80067A3AA /* Build configuration list for PBXNativeTarget "Flabby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				559F07A326B475A80067A3AA /* Debug */,
+				559F07A426B475A80067A3AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		559F07A526B475A80067A3AA /* Build configuration list for PBXNativeTarget "FlabbyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				559F07A626B475A80067A3AA /* Debug */,
+				559F07A726B475A80067A3AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		559F07A826B475A80067A3AA /* Build configuration list for PBXNativeTarget "FlabbyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				559F07A926B475A80067A3AA /* Debug */,
+				559F07AA26B475A80067A3AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 559F077026B475A30067A3AA /* Project object */;
+}
