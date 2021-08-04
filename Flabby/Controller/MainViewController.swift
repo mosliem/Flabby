@@ -94,7 +94,7 @@ class MainViewController: UIViewController , deleteDelegate,checkBox {
    // delete Delegate Function
     func deleteAlert(_ content: String) {
     print("delegate triggerd")
-       let alert = UIAlertController(title: "Sorry", message: "You want to delete this message", preferredStyle: .alert)
+       let alert = UIAlertController(title: "Sorry", message: "You want to delete this todo", preferredStyle: .alert)
        alert.addAction(UIAlertAction(title: "Yes", style: .default, handler: { (deleteAction) in
         self.db.collection(self.username!).document(content).delete(){error
                      in
