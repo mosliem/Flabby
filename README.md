@@ -17,10 +17,6 @@
 - Add todo screen :
 - <img src="https://github.com/mosliem/Flabby/blob/main/Screenshots/addTodoPopup.png" width="300" height="600" /> <img src="https://github.com/mosliem/Flabby/blob/main/Screenshots/popUpAlert.png" width="300" height="600" /> 
 
-
-![](Screenshots/filename%20addTodoPopup.png)
-![](Screenshots/filename%20popUpAlert.png)
-
 # Pods:
 - Firebase Auth
 - Firebase firestore
