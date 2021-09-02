@@ -6,7 +6,7 @@
 - Users Data are stored in the firebase cloud.
 -  Ability to add, delete many todos and sync them immediately with the database.
 - check todo as done with syncing its state with the database immediately.
-# Screenshots:
+## Screenshots:
 - Signup screen:
 - <img src="https://github.com/mosliem/Flabby/blob/main/Screenshots/Singup.png" width="300" height="600" />
 -  Signin screen :
